@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Subash Sapkota — Software Engineer portfolio. Full-stack web development with React, Python, Django, and REST APIs." />
+  <title>Subash Sapkota | Software Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo" href="#top">Subash Sapkota</a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+        <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="profile-photo-wrap" id="profile-photo-wrap">
+          <div class="profile-photo-frame">
+            <img
+              id="profile-img"
+              class="profile-img"
+              src="images/profile.jpg"
+              alt="Subash Sapkota"
+              width="280"
+              height="280"
+              decoding="async"
+            />
+            <div class="profile-photo-fallback" aria-hidden="true">SS</div>
+          </div>
+          <p class="profile-photo-note">
+            Add your photo as <code>images/profile.jpg</code> (square, ~400–800px; JPG or PNG).
+          </p>
+        </div>
+        <div class="hero-copy">
+        <p class="hero-kicker">Software Engineer · Sydney, Australia</p>
+        <h1 id="hero-heading">Building reliable full-stack web systems</h1>
+        <p class="hero-lead">
+          React, Python (Django/Flask), REST APIs, SQL, and cloud-backed delivery—with a focus on data quality, testing, and maintainability.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="#projects">View projects</a>
+        </div>
+        <ul class="hero-meta">
+          <li><a href="mailto:nimtsubash@gmail.com">nimtsubash@gmail.com</a></li>
+          <li><a href="tel:+61493642779">493 642 779</a></li>
+          <li>Campsie, Sydney NSW</li>
+        </ul>
+        <ul class="hero-social">
+          <li><a href="https://www.linkedin.com/in/shubash/" class="social-link" data-placeholder="true">LinkedIn</a></li>
+          <li><a href="https://github.com/Dvinespark" class="social-link" data-placeholder="true">GitHub</a></li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading" class="section-title">About</h2>
+        <div class="prose">
+          <p>
+            Software Engineer with experience in full-stack web development (React, Django/Flask) and database-driven systems. Strong foundation in API development, data validation/integrity checks, and testing (Jest/React Testing Library). Collaborative teammate with cross-domain experience improving reliability and performance across web apps and services.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="section-title">Technical skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 class="skill-group-title">Languages</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>C#</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Frontend</h3>
+            <ul class="tag-list">
+              <li>React</li>
+              <li>Redux</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Backend</h3>
+            <ul class="tag-list">
+              <li>Django</li>
+              <li>Flask</li>
+              <li>RESTful APIs</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Databases</h3>
+            <ul class="tag-list">
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>MSSQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Cloud / tools</h3>
+            <ul class="tag-list">
+              <li>AWS (S3, EC2, Redshift)</li>
+              <li>GitHub</li>
+              <li>JIRA</li>
+              <li>CI/CD</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Testing / other</h3>
+            <ul class="tag-list">
+              <li>Jest</li>
+              <li>React Testing Library</li>
+              <li>BeautifulSoup</li>
+              <li>Agile/Scrum</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 id="experience-heading" class="section-title">Experience</h2>
+        <ol class="timeline">
+          <li class="timeline-item timeline-item-note">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card timeline-card-note">
+              <p><strong>Career break (Apr 2024 – Present):</strong> Focused on personal commitments while staying current through React/Python practice and project work.And Actively looking for a new role.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <header class="timeline-card-header">
+                <h3 class="timeline-role">Research Associate (Part-time)</h3>
+                <p class="timeline-org">Lambton College, Toronto</p>
+                <p class="timeline-dates">May 2022 – Mar 2024</p>
+              </header>
+              <ul class="timeline-bullets">
+                <li>Designed and optimized backend services with Django and Flask, with a focus on performance, data accuracy, and validation.</li>
+                <li>Implemented RESTful APIs to support front-end/back-end integration.</li>
+                <li>Led a data migration effort to move legacy data into MySQL, improving consistency and queryability.</li>
+                <li>Monitored microservices on AWS EC2; added logging and improved test coverage to support QA tracking.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <header class="timeline-card-header">
+                <h3 class="timeline-role">Full Stack Developer (Co-op Internship)</h3>
+                <p class="timeline-org">Stikbook Inc., Scarborough</p>
+                <p class="timeline-dates">Aug 2022 – Dec 2022</p>
+              </header>
+              <ul class="timeline-bullets">
+                <li>Built responsive UI pages using React for a finance platform; supported build tooling by configuring Babel.</li>
+                <li>Added unit and integration tests using Jest and React Testing Library to increase confidence in releases.</li>
+                <li>Assisted with debugging database queries and strengthening data validation.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <header class="timeline-card-header">
+                <h3 class="timeline-role">Software Engineer</h3>
+                <p class="timeline-org">Bitpoint Pvt. Ltd., Nepal</p>
+                <p class="timeline-dates">Oct 2020 – Sep 2021</p>
+              </header>
+              <ul class="timeline-bullets">
+                <li>Implemented product features using React, Redux, and Django.</li>
+                <li>Integrated REST APIs to render dynamic content and improve UX workflows.</li>
+                <li>Delivered SEO-friendly, responsive HTML layouts to improve discoverability and usability.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <header class="timeline-card-header">
+                <h3 class="timeline-role">Associate Software Engineer</h3>
+                <p class="timeline-org">GrowByData Pvt. Ltd., Nepal</p>
+                <p class="timeline-dates">Sep 2018 – Sep 2020</p>
+              </header>
+              <ul class="timeline-bullets">
+                <li>Developed web applications and APIs using C#, ASP.NET MVC, Python, and Django.</li>
+                <li>Optimized MSSQL queries, reducing response time by 50%.</li>
+                <li>Built aggregate queries for data validation and accuracy checks across reporting workflows.</li>
+                <li>Partnered with QA to write and maintain test cases and a test case inventory.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="subsection-title">Additional experience</h3>
+        <div class="cards cards-compact">
+          <article class="card">
+            <h4 class="card-title">Meat Supervisor</h4>
+            <p class="card-meta">Nature’s Emporium, Vaughan, Ontario, Canada · Jul 2023 – Mar 2026</p>
+            <p class="card-text">Excel-based inventory and reporting; vendor and sales analytics; cross-team coordination for campaigns.</p>
+          </article>
+          <article class="card">
+            <h4 class="card-title">Service Manager / Kitchen Manager / Crew</h4>
+            <p class="card-meta">Chipotle Mexican Grill, Vaughan, Ontario, Canada · Apr 2023 – Nov 2024</p>
+            <p class="card-text">Operations, POS/system support, training, inventory and daily reporting.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section-title">Projects</h2>
+        <div class="cards">
+          <article class="card card-project">
+            <h3 class="card-title">JobPortal</h3>
+            <p class="card-meta">Sep 2021 – Dec 2021</p>
+            <ul class="timeline-bullets">
+              <li>Built a Flask-based job portal with CRUD functionality and user authentication.</li>
+              <li>Deployed on Heroku with PostgreSQL for data management.</li>
+            </ul>
+          </article>
+          <article class="card card-project">
+            <h3 class="card-title">TechnoBlog</h3>
+            <p class="card-meta">Sep 2021 – Dec 2021</p>
+            <ul class="timeline-bullets">
+              <li>Developed a Django-based blog management system; led a team of 5 and achieved top project marks.</li>
+              <li>Integrated MongoDB for data storage.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <h2 id="education-heading" class="section-title">Education & achievements</h2>
+        <ul class="edu-list">
+          <li>
+            <strong>Postgraduate Certificate, Computer Software & Database Development</strong>
+            <span class="edu-detail">Lambton College, Toronto · May 2021 – Dec 2022</span>
+          </li>
+          <li>
+            <strong>Bachelor of Engineering, Computer Science & Engineering</strong>
+            <span class="edu-detail">Kathmandu University, Nepal · Sep 2014 – Jun 2018</span>
+          </li>
+        </ul>
+        <h3 class="subsection-title">Certifications & achievements</h3>
+        <ul class="achieve-list">
+          <li>2nd Runner-up, Hackathon — Kathmandu University (2018)</li>
+          <li>Python Community Coordinator, Kathmandu University (2017–2018)</li>
+          <li>Academic Tutor, Lambton College (2022)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt section-contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="section-title">Contact</h2>
+        <p class="contact-lead">Open to software engineering roles. Reach out by email or phone.</p>
+        <ul class="contact-actions">
+          <li><a class="btn btn-primary" href="mailto:nimtsubash@gmail.com">Email nimtsubash@gmail.com</a></li>
+          <li><a class="btn btn-ghost" href="tel:+61493642779">Call 493 642 779</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Subash Sapkota. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
